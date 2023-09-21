@@ -5,8 +5,9 @@ This is program running on ESP32 chip with Arduino development environment.
 
 The purpose of this program is to detect vibration of laundry machine or drying machine and send it to Firebase realtime database. 
 
-The system is a part of [Cloud based coin laundry operation viewer](https://laundry-watcher.web.app/?github-1). Its React based web app is also open source on [Github repository](https://github.com/shizuka-na-kazushi/laundry-watcher).
+The system is a part of [Cloud based coin laundry operation viewer](https://laundry-watcher.web.app/?github-1). Its React based web app, ``Laundry-watcher`` is also open source on [Github repository](https://github.com/shizuka-na-kazushi/laundry-watcher).
 
+This is used in [Hydrangea Hakone](https://hydrangea-hakone.com), my own rental apartment which has community coin laundry room as part of the facility. All residents can access web app to check if machine is ocupied or not.
 
 # Software and functionalities
 
@@ -43,4 +44,5 @@ The log is to be sent for testing or debugging purpose, if press the button.
 - Push switch (for sending test data to Firebase)
 
 
+![hardware image](https://github.com/shizuka-na-kazushi/vib-sensor-data-sender/blob/main/images/Vibratrion-sensor-with-esp32-chip.png?raw=true)
 
